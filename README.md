@@ -1,4 +1,4 @@
-# Siesta - rest your device
+# Siesta: Relax your Android Device
 - Easy to use quick doze mod
 - Auto turn off autosync on screen off
 - Auto power savings mode on screen off
