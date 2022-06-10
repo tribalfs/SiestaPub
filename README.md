@@ -4,7 +4,7 @@
 - Auto power savings mode on screen off
 
 
-Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT rooting). 
+Siesta needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT rooting). 
 
 ----------------------
 ### TLDR
