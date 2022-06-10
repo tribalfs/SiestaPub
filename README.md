@@ -1,15 +1,16 @@
-# Pixels - Smart Resolution and DPI Changer
-* [Google Play Store](https://play.google.com/store/apps/details?id=com.tribalfs.pixels)
+# Siesta - rest your device
+- Easy to use quick doze mod
+- Auto turn off autosync on screen off
+- Auto power savings mode on screen off
+
 
 Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT rooting). 
 
 ----------------------
 ### TLDR
 
- * Execute `adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS`
-
-----------------------
-[VIDEO GUIDE](https://youtu.be/hKxc8wqanxA)
+ * Execute `adb shell pm grant com.tribalfs.siesta android.permission.WRITE_SECURE_SETTINGS`
+ 
 ----------------------
 ### 1. Enable developer mode in phone's settings
 
@@ -72,15 +73,15 @@ For macOS:  ```./adb devices ```
   * If your device fails to connect to your computer, try connecting it a different USB port and/or using a different USB data cable. If still not connecting, your computer is possibly missing the USB driver for your phone. Check [here to download OEM USB drivers](https://developer.android.com/studio/run/oem-usb#Drivers). Once installed, reboot your PC and redo step no. 6. 
 
 
-### 7. Actual granting of WRITE_SECURE_SETTINGS permission to Pixels
+### 7. Actual granting of WRITE_SECURE_SETTINGS permission to Siesta
 
  * When successfully connected, enter the following command and press enter. You can copy the command below.  If the command is executed properly, it will return blank.
 
- ```adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS```
+ ```adb shell pm grant com.tribalfs.siesta android.permission.WRITE_SECURE_SETTINGS```
 
 ![6](write_secure_settings.png)
 
-For macOS: ```./adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS ```
+For macOS: ```./adb shell pm grant com.tribalfs.siesta android.permission.WRITE_SECURE_SETTINGS ```
 
 Note: On some MIUI devices you need to enable the option "Disable permission Monitoring" under "Developer options" to be able to grant this permission.
 
